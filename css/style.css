@@ -1,0 +1,176 @@
+/*=========== common css strat ===========*/
+:root{
+   --first-font: 'Poppins', sans-serif;
+    --second-font: 'PT Sans', sans-serif; 
+    --third-font: 'Potta One', cursive;
+}
+h1,h2,h3,h4,h5,h6,
+ul,ol,li,{
+    margin: 0;
+}
+a,a:hover{
+  text-decoration: none;
+}
+ul,ol{
+ list-style-type: none;
+}
+body{
+     font-family:var(--first-font);
+}
+h1,h2,h3{
+    font-family: var(--second-font);
+}
+/*=========== common css End ===========*/
+
+/*=========== header css start ===========*/
+#primary_nav #menu ul li a{
+    color: #353535;
+    font-family:var(--first-font);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%;
+    padding: 5px 20px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+
+/*=========== header css  end ===========*/
+
+/*===========  banner css  start ===========*/
+#banner .banner-content h6{
+    color: #353535;
+    font-family: var(--first-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#banner .banner-content h1{
+    color: #353535;
+    font-family:var(--second-font);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#banner .banner-content p{
+    color: #353535;
+    font-family:var(--first-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+#banner .banner-content a{
+    color: #353535;
+    font-family:var(--first-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%; 
+    border-radius: 20px;
+    padding: 40px 27px;
+   
+}
+#banner .banner-content .banner-item li {
+    color: #353535;
+    font-family: var(--first-font);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+    padding: 13px 0;
+    
+} 
+
+#banner .banner-content a:hover{
+    Width :50px;
+    Height:50px;
+    text-align: center;
+    color: #FC0;
+    border-radius: 20px;
+} 
+
+#banner .menu-img img{
+    transform:
+}
+/*=========== banner css  end ===========*/
+
+/*=========== about css  start ===========*/
+
+
+#about {
+    background: linear-gradient(95deg, #FC0 -21.46%, #FFF5CB 112.13%);
+}
+#about .about-item h2{
+    color: #353535;
+    font-family: var(--second-font);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#about .about-item p{
+    color: #353535;
+    font-family: var(--first-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%;
+}
+#about .about-item a{
+    color: #353535;
+    font-family: var(--first-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; 
+    
+}
+#about .about-item a:hover{
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+/*=========== about css  end ===========*/
+
+/*=========== top css start ===========*/
+#details {
+  
+}
+#details .item-box {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+}
+#details .item-box h5{
+    color: #353535;
+    text-align: center;
+    font-family: var(--first-font);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%; 
+}
+#details .item-box p{
+    color: #7A7A7A;
+    text-align: center;
+    font-family: var(--first-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%; 
+}
+/*=========== top css  end ===========*/
+
+/*=========== brand css  start ==========*/
+.top{
+    border-radius: 30px;
+    background: linear-gradient(95deg, #FC0 -21.46%, #FFF5CB 112.13%);
+}
+.top.pro-item{
+    transform: skewY(19.153deg);
+}
+/*=========== brand css  end ===========*/
